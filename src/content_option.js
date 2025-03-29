@@ -1,18 +1,18 @@
-const logotext = "JOHN";
+const logotext = "Lukas";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Lukas Hofer",
+    description: "I’m Lukas Hofer data engineer _ Full stack devloper,currently working in Hamburg",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I'm Lukas Hofer",
     animated: {
         first: "I love coding",
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "/images/Lukas-Hofer.jpg",
 };
 
 const dataabout = {
