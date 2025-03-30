@@ -1,7 +1,7 @@
 const logotext = "LH";
 const meta = {
     title: "Lukas Hofer",
-    description: "I’m Lukas Hofer data engineer, currently working in Hamburg",
+    description: "I'm Lukas Hofer data engineer, currently working in Hamburg",
 };
 
 const introdata = {
@@ -20,7 +20,7 @@ const introdata = {
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    aboutme: "Since 2018, I've been working at the intersection of data analysis and software development. As a Data Engineer, I combine both worlds to extract valuable insights from data. My professional journey began as a Working Student at OTTO and led me through various roles within the company, eventually advancing to Analytics & Technology Manager and later to Data Engineer. Before OTTO, I gained valuable experience at Hewlett Packard Enterprise, starting with a Dual Study Program and later working as an Account Manager. Now at Beiersdorf AG, I continue to develop and optimize complex data pipelines. I'm particularly fascinated by the challenge of finding technical solutions that are both efficient and user-friendly. Outside the data world, you can find me sailing on the water or figuring out strategic moves - whether in digital games or analog board games.",
 };
 const worktimeline = [{
         jobtitle: "Data Engineer",
@@ -56,23 +56,38 @@ const worktimeline = [{
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 50,
+        logo: "/images/skills/python.svg",
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "Power BI",
+        value: 50,
+        logo: "/images/skills/powerbi.svg",
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "Terraform",
+        value: 50,
+        logo: "/images/skills/terraform.svg",
+    },
+    {
+        name: "GCP",
+        value: 50,
+        logo: "/images/skills/gcp.svg",
+    },
+    {
+        name: "Microsoft Azure",
+        value: 50,
+        logo: "/images/skills/azure.svg",
+    },
+    {
+        name: "SQL",
+        value: 50,
+        logo: "/images/skills/sql.svg",
     },
     {
         name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
+        value: 50,
+        logo: "/images/skills/react.svg",
     },
 ];
 

@@ -11,6 +11,63 @@
     border-color: var(--text-color) !important;
 }
 
+/* Skills Word Cloud Styles */
+.skills-word-cloud {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+}
+
+.skill-item {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    cursor: pointer;
+    will-change: transform, left, top;
+}
+
+.skill-item:hover {
+    transform: scale(1.2);
+    z-index: 10;
+}
+
+.skill-logo {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    object-fit: contain;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.skill-name {
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--text-color);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.skill-item:hover .skill-name {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .skills-word-cloud {
+        height: 500px;
+    }
+}
+
+/* Old styles for reference - can be removed later */
 .progress-title {
     font-size: 16px;
     font-weight: 700;
