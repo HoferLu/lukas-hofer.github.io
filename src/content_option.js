@@ -1,18 +1,21 @@
-const logotext = "Lukas";
+const logotext = "LH";
 const meta = {
     title: "Lukas Hofer",
-    description: "I’m Lukas Hofer data engineer _ Full stack devloper,currently working in Hamburg",
+    description: "I’m Lukas Hofer data engineer, currently working in Hamburg",
 };
 
 const introdata = {
-    title: "I'm Lukas Hofer",
+    title: "Hi, I'm Lukas Hofer",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love data & sailing",
+        second: "I started my journey in 2018",
+        third: "I develop data pipelines",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "/images/Lukas-Hofer.jpg",
+    description: 
+    "I'm a data engineer with a strong background in data analytics, creating and deploying data pipelines on different platforms. \
+    Skilled in database programming, ETL, and data integration. In my free time I like to sail and play board and video games. \
+    I'm currently working in Hamburg.",
+    your_img_url: "/images/Lukas-Hofer-home.jpg",
 };
 
 const dataabout = {
@@ -20,19 +23,34 @@ const dataabout = {
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Data Engineer",
+        where: "Beiersdorf AG",
+        date: "2025 - today",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Data Engineer",
+        where: "OTTO (GmbH & Co KG)",
+        date: "2022 - 2024",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Analytics & Technology Manager",
+        where: "OTTO (GmbH & Co KG)",
+        date: "2020 - 2022",
+    },
+    {
+        jobtitle: "Working Student",
+        where: "OTTO (GmbH & Co KG)",
+        date: "2018 - 2020",
+    },
+    {
+        jobtitle: "Account Manager",
+        where: "Hewlett Packard Enterprise",
+        date: "2017 - 2018",
+    },
+    {
+        jobtitle: "Dual Study Program",
+        where: "Hewlett Packard Enterprise",
+        date: "2014 - 2017",
     },
 ];
 
@@ -147,10 +165,9 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/HoferLu",
+    linkedin: "https://www.linkedin.com/in/lukas-hofer/",
+    google: "https://maps.app.goo.gl/x4aCCxDRfUpurQek9?g_st=ac",
 };
 export {
     meta,
